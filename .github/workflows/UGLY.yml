@@ -1,0 +1,17 @@
+name: U R UGLY
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: SAY HELLO
+      run: echo Hello?
+    - name: CURSE HIM VERY UGLY
+      run: |
+        echo HOW ARE YOU?
+        echo U R VERY URLY!
