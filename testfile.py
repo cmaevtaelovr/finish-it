@@ -7,7 +7,6 @@ def divide(a,b):
 def multiply(a,b):
     return a*b
 
-
 ## add is to add two integers together
 
 ## minus is to calculate a-b
